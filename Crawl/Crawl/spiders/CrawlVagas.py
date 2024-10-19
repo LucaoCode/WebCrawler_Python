@@ -36,9 +36,9 @@ class CrawlvagasSpider(scrapy.Spider):
 
     def enviar_email(self, arquivo_anexo):
         # Informações do e-mail
-        remetente = "x@gmail.com"
-        destinatario = "x@ucl.br"
-        senha = "x"
+        remetente = "X"
+        destinatario = "X"
+        senha = "X"
 
         # Configuração da mensagem e corpo do email
         msg = MIMEMultipart()
