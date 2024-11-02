@@ -11,7 +11,7 @@ Este projeto realiza o web scraping do site TrabalhaES para extrair vagas de emp
 
 ## 🫡 Apresentação do Projeto
 
-**Video em Breve**
+**[Link para Apresentação do projeto!](https://youtu.be/R3RCO_1wO8Q)**
 
 ## 🕷 Tecnologias utilizadas
 

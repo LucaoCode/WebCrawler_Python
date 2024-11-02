@@ -18,6 +18,7 @@ class CrawlvagasSpider(scrapy.Spider):
     def parse(self, response):  
         now = datetime.now().strftime("%Y%m%d_%H%M%S")
         CaminhoRelatorio = f"../../../Relatorio/vagas-{now}.csv"
+        os.makedirs(os.path.dirname(CaminhoRelatorio), exist_ok=True)
         # Cria um arquivo chamado vagas.txt
         with open(CaminhoRelatorio, "w", encoding="utf-8") as file:
             file.write("Vaga;Data;Link\n")
